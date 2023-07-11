@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Up and Down GAME</title>
+  </head>
+  <body>
+    <main id="main-container">
+      <h1>Up and Down GAME</h1>
+      <div id="area-container">
+        <div id="result-area">Up? or Down?</div>
+        <div id="chance-area">남은 기회는?</div>
+      </div>
+      <div id="input-container">
+        <input
+          id="user-input"
+          type="number"
+          placeholder="Guess Number 1~100!!!"
+        />
+        <div id="input-btn">
+          <input id="play-btn" type="button" value="Go!!" />
+          <input id="reset-btn" type="button" value="Reset" />
+        </div>
+      </div>
+    </main>
+    <section id="list-container" class="hidden"></section>
+    <script src="main.js"></script>
+  </body>
+</html>
